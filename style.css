@@ -1,0 +1,67 @@
+body {
+  background-color: pink;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.box_1 {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-right: 25px;
+  border-radius: 12.5px;
+  transition: all 0.4s ease-in-out;
+}
+
+.box_2 {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 25px;
+  border-radius: 12.5px;
+  transition: all 0.4s ease-in-out;
+}
+
+.box_1:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transform: translateY(-10px);
+}
+.box_2:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transform: scale(0.8);
+}
+
+.box_1_button {
+  width: 200px;
+  height: 75px;
+  background-color: white;
+  color: blue;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 12.5px;
+  border: none;
+  padding: 0px;
+}
+
+.box_2_button {
+  width: 200px;
+  height: 75px;
+  background-color: white;
+  color: red;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 12.5px;
+  border: none;
+  padding: 0px;
+}
+
+.common_box {
+  cursor: pointer;
+}
